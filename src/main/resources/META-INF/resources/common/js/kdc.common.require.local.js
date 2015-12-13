@@ -4,7 +4,7 @@
     require.config({
         baseUrl: "",
         paths: {
-            "angular": "/webjars/angularjs/1.3.15/angular",
+            "angular": "/webjars/angularjs/1.4.7/angular",
             "domReady": "/webjars/requirejs-domready/2.0.1/domReady",
             "jquery": "/webjars/jquery/2.1.4/jquery.min",
             "text": "/webjars/requirejs-text/2.0.10-3/text",
