@@ -1,4 +1,4 @@
-package com.kungfudev.cloud.common.security;
+package com.aronim.cloud.common.security;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;

@@ -5,14 +5,15 @@
         function (domReady, $) {
             domReady(function () {
 
-                window.kdc = window.kdc || {};
-                window.kdc.bootstrap = window.kdc.bootstrap || {};
-                window.kdc.bootstrap.done = false;
+                window.aronim = window.aronim || {};
+                window.aronim.cloud = window.aronim.cloud || {};
+                window.aronim.cloud.bootstrap = window.aronim.cloud.bootstrap || {};
+                window.aronim.cloud.bootstrap.done = false;
 
-                $("[data-kdc-module]").each(function (index, element) {
+                $("[data-aronim-cloud-module]").each(function (index, element) {
 
                     var $element = $(element);
-                    var module = $element.attr("data-kdc-module");
+                    var module = $element.attr("data-aronim-cloud-module");
 
                     var moduleName = module.substr(module.lastIndexOf("/") + 1);
 
@@ -21,7 +22,7 @@
                     })
                 });
 
-                window.kdc.bootstrap.done = true;
+                window.aronim.cloud.bootstrap.done = true;
             })
         }
     );
