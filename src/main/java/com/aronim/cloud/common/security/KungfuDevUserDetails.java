@@ -10,12 +10,10 @@ import java.util.Collection;
  * Date: 2015-05-30
  * Time: 19h33
  */
-public class KungfuDevUserDetails extends User {
-
+public class KungfuDevUserDetails extends User
+{
     private final String id;
-
     private final String firstName;
-
     private final String lastName;
 
     public KungfuDevUserDetails(String id,
@@ -23,28 +21,31 @@ public class KungfuDevUserDetails extends User {
                                 String lastName,
                                 String emailAddress,
                                 String password,
-                                Collection<? extends GrantedAuthority> authorities) {
-
+                                Collection<? extends GrantedAuthority> authorities)
+    {
         super(emailAddress, password, authorities);
         this.id = id;
         this.firstName = firstName;
-
         this.lastName = lastName;
     }
 
-    public String getId() {
+    public String getId()
+    {
         return id;
     }
 
-    public String getFirstName() {
+    public String getFirstName()
+    {
         return firstName;
     }
 
-    public String getLastName() {
+    public String getLastName()
+    {
         return lastName;
     }
 
-    public String getEmailAddress() {
+    public String getEmailAddress()
+    {
         return getUsername();
     }
- }
+}

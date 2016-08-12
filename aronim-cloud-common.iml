@@ -15,19 +15,20 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="Gradle: org.webjars:angular-ui-router:0.2.14" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.webjars:bootstrap:3.3.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.webjars:jquery:2.1.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.webjars:requirejs:2.1.17" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.webjars:requirejs-domready:2.0.1-2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.webjars:requirejs-text:2.0.10-3" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.springframework.security:spring-security-core:4.0.3.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: org.webjars:angularjs:1.4.7" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-aop:4.2.2.RELEASE" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-beans:4.2.2.RELEASE" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-context:4.2.2.RELEASE" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-core:4.2.2.RELEASE" level="project" />
-    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-expression:4.2.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
     <orderEntry type="library" exported="" name="Gradle: aopalliance:aopalliance:1.0" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework.security:spring-security-core:4.1.1.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-beans:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-context:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-context-support:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-core:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-aop:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" exported="" name="Gradle: org.springframework:spring-expression:4.3.2.RELEASE" level="project" />
+    <orderEntry type="library" name="Gradle: org.webjars:bootstrap:3.3.6" level="project" />
   </component>
 </module>

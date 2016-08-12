@@ -31,11 +31,17 @@ targetCompatibility = 1.8
 
 dependencies {
 
-    compile("org.springframework.security:spring-security-core:4.0.3.RELEASE")
+    compile("org.springframework:spring-beans:4.3.2.RELEASE")
+    compile("org.springframework:spring-context:4.3.2.RELEASE")
+    compile("org.springframework:spring-context-support:4.3.2.RELEASE")
+    compile("org.springframework:spring-core:4.3.2.RELEASE") {
+        exclude group: "commons-logging", module: "commons-logging"
+    }
+    compile("org.springframework.security:spring-security-core:4.1.1.RELEASE")
 
     compile("org.webjars:angularjs:1.4.7")
     compile("org.webjars:angular-ui-router:0.2.14")
-    compile("org.webjars:bootstrap:3.3.4")
+    compile("org.webjars:bootstrap:3.3.6")
     compile("org.webjars:jquery:2.1.4")
     compile("org.webjars:requirejs:2.1.17")
     compile("org.webjars:requirejs-domready:2.0.1-2")
