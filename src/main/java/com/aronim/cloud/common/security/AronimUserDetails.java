@@ -10,18 +10,18 @@ import java.util.Collection;
  * Date: 2015-05-30
  * Time: 19h33
  */
-public class KungfuDevUserDetails extends User
+public class AronimUserDetails extends User
 {
     private final String id;
     private final String firstName;
     private final String lastName;
 
-    public KungfuDevUserDetails(String id,
-                                String firstName,
-                                String lastName,
-                                String emailAddress,
-                                String password,
-                                Collection<? extends GrantedAuthority> authorities)
+    public AronimUserDetails(String id,
+                             String firstName,
+                             String lastName,
+                             String emailAddress,
+                             String password,
+                             Collection<? extends GrantedAuthority> authorities)
     {
         super(emailAddress, password, authorities);
         this.id = id;
